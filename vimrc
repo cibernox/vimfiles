@@ -13,7 +13,7 @@ set encoding=utf-8
 call pathogen#infect()
 filetype plugin indent on
 
-set background=light
+set background=dark
 colorscheme solarized
 
 set relativenumber
@@ -123,7 +123,7 @@ let g:ctrlp_custom_ignore = 'node_modules\|^\.git\|tmp'
 
 "snipmate
 let g:snipMate = {}
-let g:snipMate.scope_aliases = {} 
+let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['jst'] = 'html'
 
 "disable jshint highlighting
